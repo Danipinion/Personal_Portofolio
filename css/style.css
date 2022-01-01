@@ -379,6 +379,7 @@ background: none;
     line-height: 35px;
     padding-right: 2em;
 }
+/* contact-form */
 .contact-form{
     grid-column:1 / 3;
     grid-row: 1 / 3;
@@ -389,16 +390,18 @@ background: none;
 .contact-form img{
     width: 500px;
     height: 350px;
+    margin-left: 10px;
 }
 .contact-form form{
-    margin-left: 400px;
+    margin-left: 300px;
     width: 300px;
     text-align: center;
     padding: 30px 5px;
     border-radius: 20px;
     border:2px solid white ;
     background: none;
-    margin-right: 45px;
+    margin-right: 100px;
+    box-shadow: 0 0 10px 2px rgba(255,255,255,.6);
 }
 .contact-form form input{
     margin-bottom: 20px;
@@ -406,6 +409,8 @@ background: none;
     height: 50px;
     border-radius: 5px;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.02em;
 }
 .contact-form form input.no-btn{
     background-color: lightblue;
@@ -423,6 +428,7 @@ background: none;
     padding-left: 3px;
     padding-top: 5px;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 .contact-form .about-btn .submit-send{
     margin-left: 68px;
