@@ -394,7 +394,7 @@ background: none;
     margin-left: 400px;
     width: 300px;
     text-align: center;
-    padding: 15px 5px;
+    padding: 30px 5px;
     border-radius: 20px;
     border:2px solid white ;
     background: none;
@@ -428,3 +428,57 @@ background: none;
     margin-left: 68px;
 }
 
+/* footer */
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr );
+    background-color: #000000;
+    color: white;
+    padding-bottom: 10px;
+}
+.descrip{
+    padding: 30px;
+    justify-items: center;
+}
+.descrip .title{
+    font-size: 2em;
+    line-height: 1.2em;
+    
+}
+.descrip .title span{
+    color: blue;
+}
+.copy{
+    align-self: end;
+}
+.link{
+    /* background-color: yellowgreen; */
+    place-self: center end;
+    margin-right: 30px;
+}
+.link .box{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-bottom: 10px;
+}
+.link .box.top{
+    padding-top: 20px;
+}
+
+.link .box a{
+    text-align: center;
+    color: blue;
+    font-size: 1.3em;
+}
+.link .box p{
+    text-align: center;
+    transform: scale(0);
+    transition: all .3s ease-in;
+}
+
+/* link animation */
+.link .box:hover>*{
+    transform: scale(1);
+}
